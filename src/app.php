@@ -11,9 +11,9 @@ if (isset($arr[1])) {
 
 
 //开放平台
-preg_match('/([0-9]+).txt/', $_SERVER['REQUEST_URI'], $arr);
-if (isset($arr[1])) {
-    echo $arr[1];
+preg_match('/(^[0-9]{11}$).txt/', $_SERVER['REQUEST_URI'], $arr1);
+if (isset($arr1[1])) {
+    echo $arr1[1];
     exit();
 }
 
